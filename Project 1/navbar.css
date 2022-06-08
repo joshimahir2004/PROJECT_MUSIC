@@ -1,0 +1,75 @@
+/* <!-- -----------------------------NAVBAR---------------------------------------------------------------------------------------------- --> */
+
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    background-color:#121212;
+    font-family: 'Ubuntu', sans-serif;
+ 
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav ul {
+    
+    display: flex;
+    
+    
+    
+}
+.nav li{
+    display: flex;
+    padding: 0 40px 0 0;
+    
+    
+}
+.nav li a {
+    display: flex;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+}
+/* <!-- -----------------------------SEARCH---------------------------------------------------------------------------------------------- --> */
+
+#search{
+    margin: 2rem;
+    width: 22rem;
+    height: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    border-radius: 25px;
+}
+#logo{
+    padding: 20px;
+   
+    font-size: 4rem;
+}
+.logo2{
+    display: flex;
+
+}
+/* <!-- -----------------------------HOVER---------------------------------------------------------------------------------------------- --> */
+
+.nav li a:hover{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.329);
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+#search:hover{
+    transition: 0.5s;
+    transform: translateY(1px);
+}
+#logo:hover{
+    color: rgb(0, 0, 0);
+    transform: rotate( 1turn);
+    transition: 0.8s;
+}
+
