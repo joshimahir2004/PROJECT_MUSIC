@@ -6,9 +6,11 @@
     justify-content: space-between;
     background-color:#121212;
     font-family: 'Ubuntu', sans-serif;
+    
  
 }
 .nav{
+margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,30 +33,68 @@
 .nav li a {
     display: flex;
     color: white;
-    font-size: 27px;
+    font-size: 18px;
     text-decoration: none;
 }
+.nav2{
+    font-size: 3rem;
+    height: 100vh;
+    background-color:var(--bg) ;
+ width: 5rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.nav2:last-child{
+    margin-top: auto;
+}
+.logo3{
+    margin: 0 5.5rem;
+}
+
+.menuitem{
+    display: flex;
+
+}
+
 /* <!-- -----------------------------SEARCH---------------------------------------------------------------------------------------------- --> */
 
 #search{
-    margin: 2rem;
-    width: 22rem;
-    height: 2rem;
+    margin: 1rem;
+    width: 17rem;
+    height: 1rem;
     padding: 0.5rem;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
+    font-size: 11px;
     border-radius: 25px;
 }
 #logo{
     padding: 20px;
    
-    font-size: 4rem;
-}
+    font-size: 2rem;
+} 
 .logo2{
     display: flex;
 
+} 
+#logo2{
+     position: fixed;
+  
+    font-size: 2rem; 
+    margin: 0 1rem;
 }
+
+/* <!-- -----------------------------IMG---------------------------------------------------------------------------------------------- --> */
+#image{
+    height: 2rem;
+    border-radius: 89px;
+    margin: 1rem;
+    position: fixed;
+}
+
 /* <!-- -----------------------------HOVER---------------------------------------------------------------------------------------------- --> */
 
 .nav li a:hover{
@@ -67,9 +107,28 @@
     transition: 0.5s;
     transform: translateY(1px);
 }
-#logo:hover{
-    color: rgb(0, 0, 0);
-    transform: rotate( 1turn);
-    transition: 0.8s;
+
+.font{
+    font-size: 1rem;
+    
+    color: white;
 }
+
+
+/* <!-- -----------------------------MUSIC---------------------------------------------------------------------------------------------- --> */
+.music-image{
+    height: 6rem;
+}
+.conte{
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 6rem 6rem;
+}
+#bad{
+    color: white;
+}
+
+
+
+
 
