@@ -6,7 +6,10 @@ body{
     background-color: #030303;
 }
 :root{
-    /* font-size: 16px; */
+    /* font-size: 16px;    <img class="music-image" src="img/Madara.jpg" alt="img">
+             <img class="music-image" src="img/obito.jpg" alt="img">
+             <img class="music-image" src="img/unknown.jpg" alt="img">
+             <img class="music-image" src="img/sasuke.jpg" alt="img"> */
     --bg:#121212;
 }
 main{

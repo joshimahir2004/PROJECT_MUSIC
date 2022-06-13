@@ -1,0 +1,72 @@
+.album-title {
+    margin: 1rem;
+}
+
+.conte {
+
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 6rem 6rem;
+    justify-items: stretch;
+    justify-content: center;
+    border-bottom: solid 2px #DD0004;
+}
+
+.text {
+    color: white;
+    margin: 0.5rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.time {
+    display: flex;
+    color: white;
+    margin: 0.5rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+    padding: 0 0 0 42rem;
+}
+
+
+.font {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0 0 0 70px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.image-music {
+    width: 4rem;
+    padding: 0px 27px 0px 48px;
+    border-radius: 13%;
+}
+
+.music-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n2{
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.n3{
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212
+    
+}
+.bg{
+    background-color: #121212
+}
